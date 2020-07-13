@@ -17,5 +17,6 @@ namespace collabnetwork.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+        public DbSet<CollabPost> CollabPosts {get;set;}
     }
 }
